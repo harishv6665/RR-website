@@ -1,0 +1,101 @@
+@media (max-width: 1024px) {
+    nav.rr-header__nav {
+        display: none;
+    }
+    button.rr-header__nav-button {
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 40px;
+        border: none;
+        background: #1E2532;
+        width: 55px;
+        height: 55px;
+        cursor: pointer;
+        border-radius: 50%;
+        outline: none;
+    }
+    button.rr-header__nav-button:before {
+        font-size: 22px;
+        position: relative;
+        top: 0px;
+        left: -10px;
+        color: #fff;
+    }
+    nav.rr-header__nav {
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin-top: 0;
+        height: 510px;
+        width: 100%;
+        text-align: center;
+        background: #1E2532;
+        z-index: -1;
+        padding-top: 170px;
+        margin: 0;
+    }
+    a.rr-header__nav__link {
+        display: block;
+        width: calc(50% - 120px);
+        margin: 10px 60px;
+        font-size: 20px;
+        border-bottom: none !important;
+        padding: 24px 0;
+    }
+    a.rr-header__nav__link.active {
+        background: rgb(40, 50, 68);
+        border-radius: 5px;
+    }
+    h2.rr-banner__header-title {
+        bottom: 430px;
+    }
+    h5.rr-banner__tagline {
+        bottom: 350px;
+    }
+    .rr-layout-container {
+        width: 80%;
+    }
+    .rr-events__list__item {
+        width: calc(100% * 1 / 2 - 70px);
+    }
+    .rr-events__list__item:nth-child(even) {
+        margin-right: 0;
+    }
+    .rr-events__list__item:nth-child(odd) {
+        margin-right: 100px;
+    }
+    footer.rr-footer {
+        display: block;
+    }
+    .rr-footer__cols:nth-child(2) {
+        position: absolute;
+        top: 0;
+    }
+    .rr-footer__cols:nth-child(3),
+    .rr-footer__cols:nth-child(1) {
+        width: 50%;
+        position: absolute;
+        top: 300px;
+    }
+    .rr-footer__cols:nth-child(1) {
+        left: 0;
+    }
+    .rr-footer__cols:nth-child(3) {
+        right: 0;
+    }
+    .rr-footer__cols {
+        height: 300px;
+    }
+    .rr-events-content__list__item__details {
+        padding: 20px 30px;
+    }
+
+    h5.rr-events-content__list__item__details__title {
+        font-size: 20px;
+    }
+
+    p.rr-events-content__list__item__details__text {
+        font-size: 14px;
+    }
+}

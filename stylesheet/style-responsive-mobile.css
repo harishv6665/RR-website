@@ -1,0 +1,172 @@
+@media (max-width: 768px) {
+    .rr-header__logo-wrapper {
+        width: 140px;
+        height: 90px;
+    }
+    h2.rr-banner__header-title {
+        bottom: auto;
+        top: 120px;
+        font-size: 25px;
+        left: 30px;
+        right: 30px;
+    }
+    .rr-banner__wrapper {
+        background: url(../images/banner4.jpg);
+        background-position: center center;
+        background-size: cover;
+    }
+    h5.rr-banner__tagline {
+        bottom: auto;
+        top: 195px;
+        left: 30px;
+        font-size: 12px;
+        right: 30px;
+    }
+    button.rr-header__nav-button {
+        display: block;
+        height: 45px;
+        width: 45px;
+        top: 20px;
+        right: 20px;
+    }
+    button.rr-header__nav-button:before {
+        font-size: 18px;
+    }
+    nav.rr-header__nav {
+        display: block;
+        padding-top: 100px;
+        height: 370px;
+        display: none;
+    }
+    a.rr-header__nav__link {
+        width: 100%;
+        margin: 5px 0;
+        padding: 8px 0;
+        font-size: 12px;
+    }
+    .rr-about__right__section {
+        display: none;
+    }
+    .rr-about__left__section {
+        width: 100%;
+    }
+    p.rr-about__text {
+        width: 100%;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: justify;
+        margin-top: 30px;
+    }
+    button.rr-about__button {
+        margin: auto;
+        float: none;
+        width: 150px;
+        display: block;
+        font-size: 12px;
+    }
+    .rr-about__wrapper {
+        padding-bottom: 40px;
+    }
+    .rr-events__list__item {
+        width: calc(100% - 40px) !important;
+        margin: 12px 20px;
+    }
+    h5.rr-events__list__item__title {
+        font-size: 12px;
+        padding-top: 20px;
+    }
+    span.rr-footer__address__icon:before {
+        font-size: 50px !important;
+    }
+    span.rr-footer__address__icon {
+        width: 90px;
+        height: 70px;
+    }
+    span.rr-footer__address {
+        font-size: 14px;
+    }
+    .rr-footer__cols {
+        width: 100% !important;
+    }
+    .rr-footer__cols:nth-child(3) {
+        top: 220px;
+    }
+    .rr-footer__cols:nth-child(1) {
+        top: 500px;
+    }
+    button.rr-footer__feedback__button {
+        width: calc(100% - 40px);
+        margin: 20px 10px;
+    }
+    h6.rr-page__header-title {
+        font-size: 30px;
+    }
+    .rr-about-section__image {
+        width: 140px;
+        height: 140px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+    p.rr-about-section__text {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .gallery.rr-gallary a {
+        width: calc(100% / 2) !important;
+        height: 200px !important;
+    }
+    li.rr-pricing__list__item {
+        width: 100%;
+        height: 100px;
+        margin-bottom: 30px;
+    }
+    .rr-pricing__list__item__image {
+        width: 100px;
+        height: 100%;
+    }
+    .rr-pricing__list__item__details {
+        width: calc(100% - 100px);
+        padding: 10px 15px;
+    }
+    h6.rr-pricing__list__item__details__title {
+        font-size: 15px;
+        margin-bottom: 7px;
+    }
+    .rr-pricing__list__item__details__text {
+        font-size: 14px;
+        margin-bottom: 1px;
+    }
+    h3.rr-pricing__secondary-details {
+        height: auto;
+    }
+    .rr-pricing__secondary-details__left-section {
+        width: 100%;
+        height: 120px;
+        padding: 12px;
+    }
+    h5.rr-pricing__secondary-details__left-section__sub-title {
+        font-size: 15px;
+    }
+    h5.rr-pricing__secondary-details__left-section__title {
+        font-size: 34px;
+        padding: 20px 0;
+    }
+    li.rr-pricing__secondary-details__right-section__list {
+        font-size: 14px;
+        padding-left: 13px;
+        width: 100%;
+        white-space: nowrap;
+    }
+    li.rr-events-content__list__item {
+        height: auto;
+    }
+    .rr-events-content__list__item__image {
+        width: 100%;
+        height: 200px;
+    }
+
+    .rr-events-content__list__item__details {
+        width: 100%;
+        padding: 25px;
+    }
+}
