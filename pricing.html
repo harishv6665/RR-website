@@ -11,14 +11,14 @@
 
     <meta name="description" content="RED RIDERS SPORTS IS A SPORTS CLUB LOCATED AT SARJAPUR ROAD (4KM AWAY FROM DECATHLON SPORTS) WITH 'GO-KARTING' AS THE MAIN THEME. WE CONSTRUCTED AN INTERNATIONAL STANDARD TRACK WHICH IS THE LONGEST GO-KARTING TRACK IN KARNATAKA">
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="script/script.js"></script>
-
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,400italic,700,500,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="stylesheet/style.css">
     <link rel="stylesheet" href="stylesheet/style-responsive-tablet.css">
     <link rel="stylesheet" href="stylesheet/style-responsive-mobile.css">
     <link rel="stylesheet" href="fonticon/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet/unslider.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet/unslider-dots.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet/package-slider.css">
 </head>
 
 <body>
@@ -46,6 +46,26 @@
             <div class="rr-layout-container">
                 <h6 class="rr-page__header-title">Pricing</h6>
                 <h6 class="rr-page__notification-title"><b>Please note:</b> The prices listed below are subject to change without updating in the website anytime. To get the current price please feel free to call us on 9141-717-717, 9900-457-772, 9916-185-050 </h6>
+
+                <!-- <div class="rr-pkg-pricing">
+                    <h3 class="rr-pkg-pricing__title">PACKAGE</h3>
+                    <div class="rr-pkg-pricing__slider">
+                        <div class="package-slider">
+                            <ul>
+                                <li>
+                                    package 1
+                                </li>
+                                <li>
+                                    package 2
+                                </li>
+                                <li>
+                                    package 3
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> -->
+
                 <div class="rr-pricing">
                     <ul class="rr-pricing__list clearfix">
                         <li class="rr-pricing__list__item clearfix">
@@ -217,5 +237,27 @@
         </div>
 
     </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="./script/unslider.js"></script>
+    <script>
+        $(function() { 
+            $('.package-slider').unslider({
+                autoplay: true,
+                infinite: true
+            }) 
+        })
+    </script>
+    <script type="text/javascript" src="script/script.js"></script>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-63044607-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 </body>
 </html>

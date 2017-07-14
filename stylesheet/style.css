@@ -736,6 +736,26 @@ background-image: url(../images/pricing/paintball.jpg);
     background-image: url(../images/pricing/dirtbike.jpg);
 }
 
+.rr-events-content__list__item__image.sky-ejector {
+    background-image: url(../images/pricing/Rocket-Ejector.jpg);
+}
+
+.rr-events-content__list__item__image.wall-climbing {
+    background-image: url(../images/pricing/wallclimb.jpeg);
+}
+
+.rr-events-content__list__item__image.trampoline-bungee-jump {
+    background-image: url(../images/pricing/bungeetrampoline.jpg);
+}
+
+.rr-events-content__list__item__image.gaint-swing {
+    background-image: url(../images/pricing/GiantSwing.jpg);
+}
+
+.rr-events-content__list__item__image.rope-course {
+    background-image: url(../images/pricing/ropeCourse.jpg);
+}
+
 .rr-events-content__list__item__image.zip-line {
     background-image: url(../images/pricing/zipline.jpeg);
 }
@@ -758,4 +778,74 @@ background-image: url(../images/pricing/paintball.jpg);
 
 .rr-events-content__list__item__image.bull-ride {
     background-image: url(../images/pricing/bullride.jpg);
+}
+
+.ad-popup__wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.ad-popup {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 550px;
+    height: 230px;
+    margin: auto;
+    background: #fff;
+    border-radius: 3px;
+    padding: 40px 50px;
+}
+
+button.ad-popup__close-btn {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px;
+    border: 0;
+    background: transparent;
+}
+
+button.ad-popup__close-btn:before {
+    content: '+';
+    font-family: arial;
+    font-size: 45px;
+    position: absolute;
+    top: -10px;
+    left: 1px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+p.ad-popup__text {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+
+a.ad-popup__link {
+    display: block;
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    background: #3b5998;
+    border-radius: 2px;
+    margin-top: 25px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+a.ad-popup__link:before {
+    color: #fff;
+    font-size: 26px;
+    margin-left: 0;
 }
